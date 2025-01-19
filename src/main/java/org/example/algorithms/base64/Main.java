@@ -1,0 +1,18 @@
+package org.example.algorithms.base64;
+
+import java.util.Base64;
+
+
+public class Main {
+
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+    System.out.println(" ");
+
+    String decodedString = "W3siaWQiOiJmMzNiNGU0YmE2MDRiYWY3MmU5YzM5NTY2OTBlZWM3ZWIzNzdiOTMyMTc3ZjI4MWI0YzZiN2RkZTEyMzY2OWZhIiwiY3VzdG9tZXJUeXBlIjoiSm9pbnQgQ2FyZGhvbGRlciIsImZ1bGxOYW1lIjoiU0tYUEFVTCBCT1JHU0tYR0VMVCIsImFjY291bnRSZWxhdGlvbnNoaXBTdGF0dXMiOiJwbGFjZWhvbGRlciIsImVtYm9zc05hbWUiOiJTS1hQQVVMIEJPUkdTS1hHRUxUIiwicHJvZHVjdERlc2MiOiJTS1hQQVVMIEJPUkdTS1hHRUxUIC0gOTU2NSIsInN0YXR1cyI6IkFjdGl2ZSJ9LHsiaWQiOiIwZTNlNzM2OWY4NTlkYjIzMGRjOGFjMGQ5NjIyMjg1YWE0ZGVhYzUyYzE2MjBhNTI0YjIyY2U2MjU0Zjk1ZDY4IiwiY3VzdG9tZXJUeXBlIjoiQXV0aG9yaXplZCBVc2VyIiwiZnVsbE5hbWUiOiJJQ0JNQVJJRVRUQSBCVVhUSUNCWFRPTiIsImFjY291bnRSZWxhdGlvbnNoaXBTdGF0dXMiOiJwbGFjZWhvbGRlciIsImVtYm9zc05hbWUiOiJJQ0JNQVJJRVRUQSBCVVhUSUNCWFRPTiIsInByb2R1Y3REZXNjIjoiSUNCTUFSSUVUVEEgQlVYVElDQlhUT04gLSAyOTYyIiwic3RhdHVzIjoiQWN0aXZlIn1d";
+
+    System.out.println(new String(Base64.getDecoder().decode(decodedString)));
+  }
+
+
+}
